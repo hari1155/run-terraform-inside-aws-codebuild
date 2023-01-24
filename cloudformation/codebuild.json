@@ -59,7 +59,7 @@
               { "Name": "datapart", "Value": { "Ref" : "DataPartName"}  },
               { "Name": "region", "Value":  { "Ref" : "AWS::Region" } },
               { "Name": "applicationname", "Value": { "Ref" : "AWS::StackName" }  },
-              { "Name": "destroy" , "Value": "False" }
+              { "Name": "destroy" , "Value": "True" }
             ]
           },
           "Source": {
